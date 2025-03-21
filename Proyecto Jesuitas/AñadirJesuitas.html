@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Añadir Jesuitas</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Francisco M.Carrillo">
+		<meta name="description" content="Formulario añadir Jesuitas a la base de datos">
+		<link rel="stylesheet" href="camino.css">
+	</head>
+	<body>
+		<h1>Registrate como Jesuita</h1>
+		<fieldset class="form">
+			<form method="POST" action="añadir.php">
+			<div>
+				<a href="AñadirJesuitas.html"><img style="width:50px; height:50px;" src="imagenes/banderaEs.png"></a>
+				<a href="AñadirJesuitas Ing.html"><img style="width:50px; height:50px;" src="imagenes/banderaIng.png"></a>
+			</div>
+				<legend>Codigo Jesuita</legend>
+				<input type="text" name="codigo"placeholder="Codigo Jesuita"><br><br>
+				<legend>Nombre Jesuita</legend>
+				<input type="text" name="nJesuita" placeholder="Nombre Jesuita"><br><br>
+				<legend>Nombre Alumno</legend>
+				<input type="text" name="nAlumno" placeholder="Nombre Alumno"><br><br>
+				<legend>Firma en Español</legend>
+				<textarea name="firmaES" rows="4" cols="40"></textarea><br><br>
+				<legend>Firma en Inglés</legend>
+				<textarea name="firmaIngles" rows="4" cols="40"></textarea><br><br>
+				<input type="submit">
+			</form>
+		</fieldset>
+	</body>
+</html>

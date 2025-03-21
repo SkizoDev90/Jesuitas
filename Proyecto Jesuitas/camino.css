@@ -1,0 +1,23 @@
+/*Francisco M.Carrillo*/
+body{
+	background-color: rgb(207, 229, 243);
+	width:1200px;
+	margin: 0 auto;
+}
+div img {
+    float: right;
+}
+.form{
+	background-color: rgb(98, 161, 201);
+	width:976px;     /*1000-(2+2)-20*/
+	margin-left:2px;
+	margin-right:2px;
+	padding-left:20px;
+	border-radius:10px;
+	border:2px solid gray;
+}
+h1{
+	text-decoration:underline;
+	font-style:Italic;
+}
+

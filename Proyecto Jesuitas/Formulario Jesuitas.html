@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario Jesuitas</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Francisco M.Carrillo">
+		<meta name="description" content="Formulario para que ingresen los Jesuitas">
+		<link rel="stylesheet" href="camino.css">
+	</head>
+	<body>
+		<h1>Nuestro Viaje</h1>
+		<fieldset class="form">
+			<form method="POST" action="listarJesuitas.php">
+			<div>
+				<a href="Formulario Jesuitas.html"><img style="width:50px; height:50px;" src="imagenes/banderaEs.png"></a>
+				<a href="Formulario Jesuitas Ing.html"><img style="width:50px; height:50px;" src="imagenes/banderaIng.png"></a>
+			</div>
+				<legend>Nombre Jesuita</legend>
+				<input type="text" name="njesuita"placeholder="Nombre de Jesuita"><br><br>
+				<legend>Código</legend>
+				<input type="password" name="codigo" maxlength="5" placeholder="Código" size="5"><br><br>
+				<input type="submit">
+			</form>
+		</fieldset>
+	</body>
+</html>
